@@ -21,5 +21,11 @@
     "import",
     "module",
     "rename"
-  ]
+  ],
+  "dependencies": {
+    "es6-imports-renamer": "^0.1.4",
+    "merge": "^1.2.0",
+    "recast": "^0.10.11",
+    "through": "^2.3.7"
+  }
 }

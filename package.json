@@ -1,0 +1,25 @@
+{
+  "name": "browserify-imports-renamer",
+  "version": "0.1.0",
+  "description": "A browserify transform for renaming ES6 import declarations.",
+  "license": "MIT",
+  "repository": "mairatma/browserify-imports-renamer",
+  "author": {
+    "name": "Maira Bello",
+    "email": "maira.araujo@liferay.com"
+  },
+  "engines": {
+    "node": ">=0.11.0"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "browserify",
+    "es6",
+    "import",
+    "module",
+    "rename"
+  ]
+}

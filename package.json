@@ -1,6 +1,6 @@
 {
   "name": "browserify-imports-renamer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A browserify transform for renaming ES6 import declarations.",
   "license": "MIT",
   "repository": "mairatma/browserify-imports-renamer",

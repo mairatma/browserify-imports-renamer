@@ -17,7 +17,7 @@ module.exports = function(options) {
 	        var ast = recast.parse(data);
 	        var sources = [ { ast: ast, path: filename } ];
 	        var renamerOptions = merge({}, options, {sources: sources});
-	        renamer(renamerOptions, function(results) {
+	        renamer(renamerOptions, function(error, results) {
 	        	try {
 					var contents = recast.print(results[0].ast);
 		            self.queue(contents.code);
